@@ -256,3 +256,51 @@ a{
     font-size: 30px;
     margin: 40px;
 }
+
+.container{
+    user-select: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    background-color: rgb(167, 163, 163);
+    padding: 4px;
+    border-radius: 10px;
+    max-width: 360px;
+}
+
+.input_calculator{
+    width: 90%;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+}
+
+.item_calculator{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+.input{
+    grid-column: 1/-1;
+    padding: 0;
+}
+
+.clear{
+    background-color: #1d86c4;
+}
+
+.numeric{
+    background-color: #6c6d6e;
+}
+
+.result{
+    background-color: #1d86c4;
+    grid-column: 3/-1;
+}
+
