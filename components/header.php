@@ -7,7 +7,12 @@
                 <?php endfor?>
             </div>
             <div class="nav">
-            <div class="nav-item"><a href=<?php 
+                <div class="nav-item"><a href=<?php 
+                    $link = "calculator.php";
+                    $link_title = "Калькулятор";
+                    echo $link
+                ?>><?php echo $link_title ?></a></div>
+                <div class="nav-item"><a href=<?php 
                     $link = "game.php";
                     $link_title = "Игра";
                     echo $link
